@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Freedom Celebration | For Jana</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient Background Floating Particles -->
+    <div class="ambient-glow"></div>
+    <div class="particles-container" id="particles"></div>
+
+    <main class="main-container">
+        
+        <!-- SECTION 1: Exam Freedom Header -->
+        <section class="hero-section glass-card animate-in">
+            <div class="badge-tag">✨ Officially Finished With Exams</div>
+            <h1 class="hero-title">You Did It, <span class="highlight-name">Jana</span>!</h1>
+            <p class="hero-subtitle">Books closed, stress deleted, and total freedom unlocked. Time to celebrate the end of an era and look ahead to what's next.</p>
+        </section>
+
+        <!-- SECTION 2: Live Flight Countdown -->
+        <section class="countdown-section glass-card animate-in delay-1">
+            <div class="section-header">
+                <h2>✈️ Next Stop: Vacation Mode</h2>
+                <p>Counting down every second until touchdown on September 21st</p>
+            </div>
+            
+            <div class="countdown-grid">
+                <div class="time-box">
+                    <span id="days" class="time-number">00</span>
+                    <span class="time-label">Days</span>
+                </div>
+                <div class="time-box">
+                    <span id="hours" class="time-number">00</span>
+                    <span class="time-label">Hours</span>
+                </div>
+                <div class="time-box">
+                    <span id="minutes" class="time-number">00</span>
+                    <span class="time-label">Minutes</span>
+                </div>
+                <div class="time-box">
+                    <span id="seconds" class="time-number">00</span>
+                    <span class="time-label">Seconds</span>
+                </div>
+            </div>
+
+            <!-- Boarding Pass Widget -->
+            <div class="boarding-pass">
+                <div class="pass-header">
+                    <span>FLIGHT PASS</span>
+                    <span class="pass-status">CONFIRMED 🎫</span>
+                </div>
+                <div class="pass-body">
+                    <div class="flight-info">
+                        <small>PASSENGER</small>
+                        <strong>JANA</strong>
+                    </div>
+                    <div class="flight-info">
+                        <small>DEPARTURE</small>
+                        <strong>Mon, Sep 21 • 08:50 AM</strong>
+                    </div>
+                    <div class="flight-info">
+                        <small>ARRIVAL</small>
+                        <strong>Mon, Sep 21 • 10:55 AM</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: Interactive Sweet Notes -->
+        <section class="notes-section animate-in delay-2">
+            <div class="section-header text-center">
+                <h3>💌 Open When You Need a Smile</h3>
+                <p>Tap each card to reveal a little note</p>
+            </div>
+
+            <div class="notes-grid">
+                <!-- Note 1 -->
+                <div class="interactive-card" onclick="this.classList.toggle('revealed')">
+                    <div class="card-front">
+                        <span>Tap to open note 01 🌸</span>
+                    </div>
+                    <div class="card-back">
+                        <p>"All those late study nights finally paid off. You survived the academic gauntlet—now go rest that brilliant brain!"</p>
+                    </div>
+                </div>
+
+                <!-- Note 2 -->
+                <div class="interactive-card" onclick="this.classList.toggle('revealed')">
+                    <div class="card-front">
+                        <span>Tap to open note 02 ✨</span>
+                    </div>
+                    <div class="card-back">
+                        <p>"Less than a week until you're officially here. Get ready for zero responsibilities, great vibes, and complete relaxation."</p>
+                    </div>
+                </div>
+
+                <!-- Note 3 -->
+                <div class="interactive-card" onclick="this.classList.toggle('revealed')">
+                    <div class="card-front">
+                        <span>Tap to open note 03 💫</span>
+                    </div>
+                    <div class="card-back">
+                        <p>"Proud of how hard you pushed through everything. South Africa is lucky to have you back for this holiday!"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer-note animate-in delay-3">
+            <p>Made custom for Jana • Enjoy your well-earned freedom 🥂</p>
+        </footer>
+
+    </main>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
